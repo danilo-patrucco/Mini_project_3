@@ -4,12 +4,12 @@ google: "151496322-1"
 resume: "https://docs.google.com/document/d/e/2PACX-1vSOVsOHnv0tWpmUTQFA1LfpaGrpVShPPij5CmLdY9BOiHotXAF6UXKco2-KDv0JftEKbAivTBB_us6B/pub?embedded=true"
 Project_1: "https://github.com/danilo-patrucco/Mini_Project_1_IS117"
 Project_2: "https://github.com/danilo-patrucco/miniproject2"
-Project_3: ""
-Project_4: ""
+Project_3: "https://github.com/danilo-patrucco/Mini_project_3"
+Project_4: "https://github.com/danilo-patrucco/Final_project_IS117"
 first_name: "Danilo Patrucco"
 
-url: '' 
-baseurl: ''
+url: '' #'/Mini_project_3'
+baseurl: '' #'https://danilo-patrucco.github.io'
 
 markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
