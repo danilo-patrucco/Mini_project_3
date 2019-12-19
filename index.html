@@ -5,7 +5,7 @@ title: Home
 
 <div id="wrapper">
     <div id="hero_image">
-        <a ref="index.html"><img src="img/coffee.jpg" height="auto" width="960px"></a>
+        <img src="img/coffee.jpg" class="img-fluid" alt="Responsive image">
         <div id="hero_image-text">
             <h1>Danilo Patrucco</h1>
             <p>As long as there was coffee in the world</p>
@@ -25,18 +25,20 @@ title: Home
                 </div>
             </div>
             <div class="card">
-                <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <h5 class="card-title" style="text-align: center;">what to do ?</h5>
+                    <p class="card-text">Have fun with this random quote generator!</p>
+                    <div id="quoteDisplay"></div>
+                    <button type="button" class="btn btn-primary btn-lg btn-block" onclick="newQuote()">Random quote!</button>
+                    <script src="javascript.js"></script>
                 </div>
             </div>
             <div class="card">
-                <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+                    <h5 class="card-title" style="text-align: center;">Contact me!</h5>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                </div>
+                    <a href="/contact.html" class="btn btn-primary btn-lg btn-block active" role="button" aria-pressed="true">Primary link</a>
+            </div>
             </div>
         </div>
         <!--
