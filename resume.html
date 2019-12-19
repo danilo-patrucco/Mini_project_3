@@ -6,16 +6,21 @@ title: Resume
 ---
 <div class="row">
     <div class="col-9">
-            <h1>My Resume <br></h1>
-            <link rel="stylesheet" href="css/normalize.css">
-            <link rel="stylesheet" href="css/main.css">
-            <meta charset='utf-8'>
-            <iframe src="{{ site.resume }}" allowfullscreen align="center" style="height: 500px; width: 693px;">
+        <h1>My Resume <br></h1>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <meta charset='utf-8'>
+        <iframe src="{{ site.resume }}" allowfullscreen align="center" style="height: 500px; width: 693px;">
 
-            </iframe>
-        </div>
-        <div class="col-3">
-            <p><br>This is my most up to date resume, if needed here is a direct link where it can be downloaded</p>
-            <a href='{{ site.resume }}'><h2 style="text-align: center;"><br>Resume</h2></a>
+        </iframe>
+    </div>
+    <div class="col-3">
+        <div class="card">
+            <div class="card-body">
+                <p><br>This is my most up to date resume, if needed here is a direct link where it can be downloaded</p>
+                <a href="{{ site.resume }}" class="btn btn-primary btn-lg btn-block active" role="button"
+                   aria-pressed="true">Resume</a>
+            </div>
         </div>
     </div>
+</div>
