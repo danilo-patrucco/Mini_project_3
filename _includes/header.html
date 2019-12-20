@@ -1,36 +1,24 @@
-<!--<header>
-    <h1><a href='{{ site.url }}/'>{{ site.name }}</a></h1>
-</header>
-<a href='{{ site.url }}/'> Home</a> | <a href='{{ site.url }}/about/'>About </a> | <a href='{{ site.url }}/contact/'> Contacts</a> | <a href='{{ site.url }}/archive/'> Archive</a>
-<hr>-->
-
-
-<nav class="navbar navbar-light" style="background-color: white;">
-    <!-- Navbar content -->
-    <div class="btn-group btn-group-toggle btn-lg btn-block" data-toggle="buttons">
-        <label class="btn btn-secondary">
-            <input onclick="window.location='/index.html';" type="radio" name="options" id="option1" autocomplete="off"
-                   checked> Home</a>
-        </label>
-        <label class="btn btn-secondary">
-            <input onclick="window.location='/about.html';" type="radio" name="options" id="option2" autocomplete="off">
-            About
-        </label>
-        <label class="btn btn-secondary">
-            <input onclick="window.location='/projects.html';" type="radio" name="options" id="option3"
-                   autocomplete="off"> Projects
-        </label>
-        <label class="btn btn-secondary">
-            <input onclick="window.location='/writing.html';" type="radio" name="options" id="option4"
-                   autocomplete="off"> Writing
-        </label>
-        <label class="btn btn-secondary">
-            <input onclick="window.location='/resume.html';" type="radio" name="options" id="option5"
-                   autocomplete="off"> Resume
-        </label>
-        <label class="btn btn-secondary">
-            <input onclick="window.location='/contact.html';" type="radio" name="options" id="option6"
-                   autocomplete="off"> Contacts
-        </label>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="margin-bottom: 30px;">
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav" style="text-align: center;">
+            <li class="nav-item active" style="margin-left: 73px;">
+                <a class="nav-link" href="/index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item" style="margin-left: 73px;">
+                <a class="nav-link" href="/about.html">About</a>
+            </li>
+            <li class="nav-item" style="margin-left: 73px;">
+                <a class="nav-link" href="/projects.html">Projects</a>
+            </li>
+            <li class="nav-item" style="margin-left: 73px;">
+                <a class="nav-link" href="/writing.html">Writing</a>
+            </li>
+            <li class="nav-item" style="margin-left: 73px;">
+                <a class="nav-link" href="/resume.html">Resume</a>
+            </li>
+            <li class="nav-item" style="margin-left: 73px;">
+                <a class="nav-link" href="/contact.html">Contact</a>
+            </li>
+        </ul>
     </div>
 </nav>
