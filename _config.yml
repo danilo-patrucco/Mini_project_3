@@ -8,8 +8,8 @@ Project_3: "https://github.com/danilo-patrucco/Mini_project_3"
 Project_4: "https://github.com/danilo-patrucco/Final_project_IS117"
 first_name: "Danilo Patrucco"
 
-url: ''
-baseurl: 'https://danilo-patrucco.github.io/Mini_project_3'
+url: ""
+baseurl: "https://danilo-patrucco.github.io/Mini_project_3"
 
 markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
